@@ -1,0 +1,55 @@
+// colors
+$whiteColor: #fff;
+$blackColor: #333;
+$greyCOlor: grey;
+// colors
+
+//utilities
+.container-xs {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.container-sm {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background: #000;
+  color: $whiteColor;
+  transition: 0.2s;
+  border-radius: 28px;
+  padding: 9px 35px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.burger-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  font-size: 1.3rem;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.cancel-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+input {
+  display: none;
+}

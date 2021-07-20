@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;  // potrzebne by back to top był płynny
+  
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  
+}
+ul,ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
