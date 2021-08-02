@@ -148,6 +148,9 @@ input {
   width: 80%;
   height: 600px;
   margin: 50px auto; }
+  @media (max-width: 768px) {
+    .carousel {
+      height: 450px; } }
   .carousel__track-container {
     position: relative;
     height: 100%;
@@ -168,6 +171,35 @@ input {
     width: 100%;
     height: 100%;
     object-fit: cover; }
+  .carousel__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 35px 50px; }
+    .carousel__text .btn {
+      font-size: 16px;
+      margin-top: 25px; }
+      @media (max-width: 768px) {
+        .carousel__text .btn {
+          font-size: 14px;
+          padding: 9px 30px; } }
+  .carousel__h1 {
+    line-height: 1;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 30px; }
+    @media (max-width: 768px) {
+      .carousel__h1 {
+        width: 90%;
+        font-size: 3rem; } }
+  .carousel__paragraph {
+    font-weight: 600;
+    width: 60%;
+    font-size: 16px; }
+    @media (max-width: 768px) {
+      .carousel__paragraph {
+        width: 90%;
+        font-size: 14px; } }
   .carousel__button {
     position: absolute;
     top: 50%;

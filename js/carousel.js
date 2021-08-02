@@ -4,7 +4,6 @@ const nextButton = document.querySelector('.carousel__button--right');
 const prevButton = document.querySelector('.carousel__button--left');
 const dotsNav = document.querySelector('.carousel__nav');
 const dost = Array.from(dotsNav.children);
-
 const slideWidth = slides[0].getBoundingClientRect().width;
 
 //arrange the next slides next to one another
@@ -45,9 +44,7 @@ nextButton.addEventListener('click', e => {
     updateDots(currentDot, nextDot);
     hideShowArrow(slides, prevButton, nextButton, nextIndex);
 })
-
 //update dots
-
 const updateDots = (currentDot, targetDot) => {
     currentDot.classList.remove('current-slide');
     targetDot.classList.add('current-slide');
